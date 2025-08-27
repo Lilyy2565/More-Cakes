@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "morecakes:blank_cake" },
+    { "item": "minecraft:sweet_berries" }
+  ],
+  "result": {
+    "item": "morecakes:berry_cake",
+    "count": 1
+  }
+}

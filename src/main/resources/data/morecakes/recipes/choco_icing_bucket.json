@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:sugar_cane" },
+    { "item": "minecraft:cocoa_beans" },
+    { "item": "minecraft:bucket" }
+  ],
+  "result": {
+    "item": "morecakes:choco_icing_bucket",
+    "count": 1
+  }
+}

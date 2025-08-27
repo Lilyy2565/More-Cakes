@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "morecakes:choco_icing_bucket" },
+    { "item": "morecakes:cake_base" }
+  ],
+  "result": {
+    "item": "morecakes:chocolate_cake",
+    "count": 1
+  }
+}

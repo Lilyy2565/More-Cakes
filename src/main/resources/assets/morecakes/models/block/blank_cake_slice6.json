@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake_slice6",
+  "textures": {
+    "particle": "morecakes:block/blank_cake_side",
+    "bottom": "morecakes:block/blank_cake_bottom",
+    "top": "morecakes:block/blank_cake_top",
+    "side": "morecakes:block/blank_cake_side",
+    "inside": "morecakes:block/blank_cake_inner"
+  }
+}

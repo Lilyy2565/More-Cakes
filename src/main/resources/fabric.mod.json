@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "morecakes",
+	"version": "${version}",
+	"name": "More Cakes",
+	"description": "A mod that adds more cake varieties to Minecraft!",
+	"authors": [
+		"Soniczac7"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/morecakes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.soniczac7.morecakes.MoreCakes"
+		],
+		"client": [
+			"com.soniczac7.morecakes.MoreCakesClient"
+		]
+	},
+	"mixins": [
+		"morecakes.mixins.json",
+		{
+			"config": "morecakes.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		
+	}
+}
