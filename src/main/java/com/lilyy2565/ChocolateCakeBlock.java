@@ -1,4 +1,4 @@
-package com.soniczac7.morecakes;
+package com.lilyy2565.morecakes;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -13,8 +13,8 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class CakeBaseBlock extends CakeBlock {
-    public CakeBaseBlock(Settings settings) {
+public class ChocolateCakeBlock extends CakeBlock {
+    public ChocolateCakeBlock(Settings settings) {
         super(settings);
     }
 

@@ -1,4 +1,4 @@
-package com.soniczac7.morecakes;
+package com.lilyy2565.morecakes;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluids;
@@ -10,8 +10,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 import net.minecraft.item.Items;
 
-public class ChocolateIcingBucketItem extends MilkBucketItem {
-	public ChocolateIcingBucketItem() {
+public class IcingBucketItem extends MilkBucketItem {
+	public IcingBucketItem() {
 	       super(new Item.Settings().maxCount(1).recipeRemainder(Items.BUCKET)); 
 	}
 }

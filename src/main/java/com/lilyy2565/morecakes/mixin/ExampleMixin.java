@@ -1,4 +1,4 @@
-package com.soniczac7.morecakes.mixin;
+package com.lilyy2565.morecakes.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

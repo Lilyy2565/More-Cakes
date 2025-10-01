@@ -1,4 +1,4 @@
-package com.soniczac7.morecakes;
+package com.lilyy2565.morecakes;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

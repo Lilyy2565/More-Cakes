@@ -1,4 +1,4 @@
-package com.soniczac7.morecakes;
+package com.lilyy2565.morecakes;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.Block;
@@ -20,9 +20,9 @@ import net.minecraft.fluid.Fluids;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.soniczac7.morecakes.ChocolateCakeBlock;
+import com.lilyy2565.morecakes.ChocolateCakeBlock;
 
-import com.soniczac7.morecakes.IcingBucketItem;
+import com.lilyy2565.morecakes.IcingBucketItem;
 
 public class MoreCakes implements ModInitializer {
 	public static final String MOD_ID = "morecakes";
