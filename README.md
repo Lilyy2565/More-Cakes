@@ -9,6 +9,9 @@ The More Cakes mod adds multiple varieties of cakes into your Minecraft world, s
 
 Making cakes in Minecraft now makes more sense with the new way to customise cakes, in vanilla, there was only 1 type of cakes, and it had cherries which seemingly came out of nowhere. Now this mod fixes this as when making a cake instead of getting the icing and cherries for free, you can customise your cake with what you want to add on it, including different flavour icing.
 
+### Installation
+The mod is avaliable on modrinth at: https://modrinth.com/mod/morecakes
+
 ### Crafting
 The mod is built to work with JEI if you wish to use it, if not the crafting recipes for everything is below:
 <details>
