@@ -18,18 +18,9 @@
 	"entrypoints": {
 		"main": [
 			"com.lilyy2565.morecakes.MoreCakes"
-		],
-		"client": [
-			"com.lilyy2565.morecakes.MoreCakesClient"
 		]
 	},
-	"mixins": [
-		"morecakes.mixins.json",
-		{
-			"config": "morecakes.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.20.1",

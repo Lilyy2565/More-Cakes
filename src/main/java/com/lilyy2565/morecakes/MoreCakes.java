@@ -41,6 +41,9 @@ public class MoreCakes implements ModInitializer {
 	public static final Block BLANK_CAKE_BLOCK = new BlankCakeBlock(Block.Settings.copy(Blocks.CAKE));
     public static final Item BLANK_CAKE_ITEM = new BlockItem(BLANK_CAKE_BLOCK, new Item.Settings());
 
+	public static final Block CARROT_CAKE_BLOCK = new BlankCakeBlock(Block.Settings.copy(Blocks.CAKE));
+    public static final Item CARROT_CAKE_ITEM = new BlockItem(CARROT_CAKE_BLOCK, new Item.Settings());
+
 	public static final Block BERRY_CAKE_BLOCK = new BerryCakeBlock(Block.Settings.copy(Blocks.CAKE));
     public static final Item BERRY_CAKE_ITEM = new BlockItem(BERRY_CAKE_BLOCK, new Item.Settings());
 
@@ -60,6 +63,9 @@ public class MoreCakes implements ModInitializer {
 		Registry.register(Registries.BLOCK, new Identifier("morecakes", "blank_cake"), BLANK_CAKE_BLOCK);
 		Registry.register(Registries.ITEM, new Identifier("morecakes", "blank_cake"), BLANK_CAKE_ITEM);
 
+		Registry.register(Registries.BLOCK, new Identifier("morecakes", "carrot_cake"), CARROT_CAKE_BLOCK);
+		Registry.register(Registries.ITEM, new Identifier("morecakes", "carrot_cake"), CARROT_CAKE_ITEM);
+
 		Registry.register(Registries.BLOCK, new Identifier("morecakes", "berry_cake"), BERRY_CAKE_BLOCK);
 		Registry.register(Registries.ITEM, new Identifier("morecakes", "berry_cake"), BERRY_CAKE_ITEM);
 
@@ -70,6 +76,7 @@ public class MoreCakes implements ModInitializer {
         	entries.add(CAKE_BASE_ITEM);
 			entries.add(CHOCOLATE_CAKE_ITEM);
         	entries.add(BLANK_CAKE_ITEM);
+			entries.add(CARROT_CAKE_ITEM);
         	entries.add(BERRY_CAKE_ITEM);
 			entries.add(ICING_BUCKET);
 			entries.add(CHOCO_ICING_BUCKET);
